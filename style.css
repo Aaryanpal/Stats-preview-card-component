@@ -1,0 +1,43 @@
+:root{
+/* Primary */
+
+--very-dark-blue: hsl(233, 47%, 7%);
+--dark-desaturated-blue: hsl(244, 38%, 16%);
+--soft-violet: hsl(277, 64%, 61%);
+
+/* Neutral */
+
+--white: hsl(0, 0%, 100%);
+--slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+--slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--dark-desaturated-blue);
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
